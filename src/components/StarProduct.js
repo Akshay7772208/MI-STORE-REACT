@@ -3,7 +3,7 @@ import '../styles/starProduct.css'
 
 
 const StarProduct = ({starProduct}) => {
-  constnothing="empty";
+  const nothing="empty";
   return (
     <div className='starProduct'>
         <div>
