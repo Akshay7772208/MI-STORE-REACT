@@ -3,11 +3,11 @@ import '../styles/starProduct.css'
 
 
 const StarProduct = ({starProduct}) => {
-  const nothing="Image";
+  constnothing="empty";
   return (
     <div className='starProduct'>
         <div>
-            <a href={starProduct[0].url}><img src={starProduct[0].image}/></a>
+            <a href={starProduct[0].url}><img src={starProduct[0].image} alt={nothing}/></a>
         </div>
         <div>
             <a href={starProduct[1].url}><img src={starProduct[1].image} alt={nothing}/></a>
